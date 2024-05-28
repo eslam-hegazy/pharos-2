@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const GetMaterialApp(
-      title: 'Flutter App',
+      title: 'Ipadel',
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         body: SplashScreen(),
