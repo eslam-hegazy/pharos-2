@@ -74,9 +74,9 @@ class _VirtualCoachScreenState extends State<VirtualCoachScreen> {
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
-                            Image.asset("assets/icons/smach.png"),
-                            SizedBox(height: 10),
-                            Text("Ready Position",style: TextStyle(fontWeight: FontWeight.bold),),
+                            Image.asset("assets/icons/smach.png",height: 50),
+                           const SizedBox(height: 10),
+                           const Text("Ready Position",style: TextStyle(fontWeight: FontWeight.bold),),
                           ],
                         )
                       ),
